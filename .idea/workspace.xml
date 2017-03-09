@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bef9c7c-675a-4a2b-985b-b8f2d29069d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hackerrank/algorithms/implementation/TheHurdleRace.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hackerrank/algorithms/implementation/AngryProfessor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,16 +36,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertionSort2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hackerrank/algorithms/sorting/InsertionSort2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="135" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="135" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -87,11 +76,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TheHurdleRace.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TheHurdleRace.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hackerrank/algorithms/implementation/TheHurdleRace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AngryProfessor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/hackerrank/algorithms/implementation/AngryProfessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -162,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/com/hackerrank/algorithms/sorting/InsertionSort1.java" />
         <option value="$PROJECT_DIR$/src/com/hackerrank/algorithms/strings/PalindromeIndex.java" />
         <option value="$PROJECT_DIR$/src/com/hackerrank/algorithms/implementation/TheHurdleRace.java" />
+        <option value="$PROJECT_DIR$/src/com/hackerrank/algorithms/implementation/AngryProfessor.java" />
       </list>
     </option>
   </component>
@@ -900,8 +900,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hackerrank/algorithms/implementation/TheHurdleRace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hackerrank/algorithms/implementation/AngryProfessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding />
         </state>
       </provider>
