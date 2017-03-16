@@ -6,6 +6,9 @@ public class MelodiousPassword {
 
     private static String consonants = "bcdfghjklmnpqrstvwxz";
     private static String vowles = "aeiou";
+    private static StringBuilder passwords = new StringBuilder();
+    private static String result = "";
+
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
         Scanner in = new Scanner(System.in);
@@ -16,25 +19,27 @@ public class MelodiousPassword {
         printMelodiousPasswords(false, password, n);
         printMelodiousPasswords(true, password, n);
 
-        System.out.println(System.currentTimeMillis()-start);
+        System.out.println(passwords.toString());
+
+        System.out.println(System.currentTimeMillis() - start);
     }
 
     private static void printMelodiousPasswords(boolean startWithVowel, char[] password, int length) {
 
-        if(startWithVowel) {
-            for(int i=0; i<vowles.length(); i++) {
-                password[length-1] = vowles.charAt(i);
-                if(length-1 == 0) {
-                    System.out.println(password);
+        if (startWithVowel) {
+            for (int i = 0; i < vowles.length(); i++) {
+                password[length - 1] = vowles.charAt(i);
+                if (length - 1 == 0) {
+                    passwords.append(new String(password) + '\n');
                 } else {
                     printMelodiousPasswords(!startWithVowel, password, length - 1);
                 }
             }
         } else {
-            for(int i=0; i<consonants.length(); i++) {
-                password[length-1] = consonants.charAt(i);
-                if(length-1 == 0) {
-                    System.out.println(password);
+            for (int i = 0; i < consonants.length(); i++) {
+                password[length - 1] = consonants.charAt(i);
+                if (length - 1 == 0) {
+                    passwords.append(new String(password) + '\n');
                 } else {
                     printMelodiousPasswords(!startWithVowel, password, length - 1);
                 }
