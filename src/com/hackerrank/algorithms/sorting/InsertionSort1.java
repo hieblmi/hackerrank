@@ -27,7 +27,7 @@ public class InsertionSort1 {
     }
 
     public static void main(String[] args) throws IOException {
-        Scanner in = new Scanner(Paths.get("/Users/michi/projects/hackerrank/src/com/hackerrank/algorithms/sorting/insertionSort1.txt"));
+        Scanner in = new Scanner(Paths.get(".\\src\\com\\hackerrank\\algorithms\\sorting\\insertionSort1.txt"));
         int s = in.nextInt();
         int[] a = new int[s];
         for (int i = 0; i < s; i++) {
