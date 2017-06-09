@@ -1,2 +1,13 @@
 *.class
 out
+IntelliLang.xml
+colors.scheme.xml
+debugger.renderers.xml
+debugger.xml
+gradle.run.settings.xml
+ide.general.xml
+ignore.xml
+parameter.hints.xml
+web-browsers.xml
+_mac/
+.idea/
